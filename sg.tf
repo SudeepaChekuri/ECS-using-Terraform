@@ -34,4 +34,4 @@ resource "aws_security_group" "ecs_task" {
     protocol    = "-1"
     to_port     = 0
   }
-}
+} 
