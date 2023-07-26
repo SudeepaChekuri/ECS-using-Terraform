@@ -1,8 +1,8 @@
 terraform {
   cloud {
-    organization = "harishankard29"
+    organization = "sudeepa23"
     workspaces {
-      name = "demo-ecs"
+      name = "ECS-using-Terraform"
     }
   }
   required_providers {
