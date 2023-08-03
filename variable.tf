@@ -1,3 +1,8 @@
+provider "aws" {
+  region = var.aws_region
+ 
+}
+
 variable "aws_region" {
   description = "Add AWS region."
   default     = "ap-south-1"
